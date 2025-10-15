@@ -59,7 +59,7 @@ module.exports = {
     proxy: [
       {
         context: '/bridge',
-        target: `http://localhost:${socketConfig.PORT}`
+        target: `https://5x0x4tv1-5000.inc1.devtunnels.ms/:${socketConfig.PORT}`
       }
     ]
   },
